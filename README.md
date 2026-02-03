@@ -18,6 +18,20 @@ Improve existing skills based on conversation context and user feedback.
 - Proposes targeted improvements to the skill's instructions
 - Updates the skill after user confirmation
 
+### update-context
+
+Persist information learned during conversation to context files for future sessions.
+
+**Use when:**
+- You want to save preferences or project details to your context files
+- You ask the agent to "remember this" or "save this to context"
+- You want to update CLAUDE.md or other memory files
+
+**What it does:**
+- Scans conversation for user preferences, project details, and workflow patterns
+- Updates target context file (defaults to CLAUDE.md)
+- Preserves existing structure while adding new information
+
 ## Installation
 
 ```bash
